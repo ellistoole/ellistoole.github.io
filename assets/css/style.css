@@ -1,0 +1,293 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Playfair Display', serif;
+} 
+.content{
+    width:70%;
+    margin: 0 auto;
+}
+#title{
+    text-align: center;
+    padding-top:90px;
+    padding-bottom: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 70px;
+    letter-spacing: 3px;
+}
+header{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background:white;
+}
+#navbar{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    margin-left: 60%;
+    text-emphasis: none;
+    text-decoration: none;
+}
+.navbar-items{
+    font-size: 18px;
+    text-decoration:none;
+    color: black;
+}    
+.navbar-items:hover{
+    text-decoration: underline;
+	font-weight: bolder;
+}
+.icon-button{
+    transition: transform ease 0.2s;
+}
+.icon-button:hover{
+    transform: scale(1.1);
+}
+.icon-button{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+#icons-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+    align-items:baseline;
+} 
+#arrow{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.me-time{
+    text-align: center;
+    padding-top: 20px;
+}
+#important{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight:bold;
+}
+#take-care{
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#drop-downs{
+    position:relative;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+}
+.drop-down{
+    width: 28%;
+}
+.question{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.answer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 35px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+/* why toggle button */
+#why-toggle-button {
+	padding: 10px 30px;
+	margin: 20px 0;
+	border-radius: 40px;
+	font-size: 30px;
+    font-weight: lighter;
+	color:black;
+	background: transparent;
+}
+#why-toggle-button:hover {
+	font-weight: bold;
+	font-size: 35px;
+	color:black;
+	border: 1px solid #b3b3b3;
+}
+#why-toggle-button:focus {
+	outline: none;
+}
+#why-toggle-button:active {
+	border-color: #838383;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+/* how toggle button */
+#how-toggle-button {
+	padding: 10px 30px;
+	margin: 20px 0;
+	border-radius: 40px;
+	font-size: 30px;
+    font-weight: lighter;
+	color:black;
+	background: transparent;
+}
+#how-toggle-button:hover {
+	font-weight: bold;
+	font-size: 35px;
+	color:black;
+	border: 1px solid #b3b3b3;
+}
+#how-toggle-button:focus {
+	outline: none;
+}
+#how-toggle-button:active {
+	border-color: #838383;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+/* when toggle button */
+#when-toggle-button {
+	padding: 10px 30px;
+	margin: 20px 0;
+	border-radius: 40px;
+	font-size: 30px;
+    font-weight: lighter;
+	color:black;
+	background: transparent;
+}
+#when-toggle-button:hover {
+	font-weight: bold;
+	font-size: 35px;
+	color:black;
+	border: 1px solid #b3b3b3;
+}
+#when-toggle-button:focus {
+	outline: none;
+}
+#when-toggle-button:active {
+	border-color: #838383;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.hidden{
+    display: none;
+}
+.ideas{
+    display: flex;
+    flex-direction: column;
+    margin: 25%;
+    padding-top: 10px;
+    align-items: center;
+}
+.idea-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight:bold;
+}
+.idea-description{
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+}
+#sun{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#bathtub{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#journal{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#mental-break{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+#go-to{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 20px;
+} 
+#go-to-link{
+    color:black;
+    text-decoration: none;
+}
+#go-to-link:hover{
+    text-decoration: underline;
+	font-weight: bolder;
+}
+
+/* resources page */
+
+#resources-title{
+    text-align: center;
+    padding-top:100px;
+    margin-left: 50%;
+    margin-right: 50%;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+#resources-take-care{
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#flowers-png{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.resources-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#more-ideas, #sources, #support{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-bottom: 22px;
+    margin-bottom: 25px;
+}
+.ul-heading{
+    position:initial;
+    align-items:baseline;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight:lighter;
+}
+li{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    line-height: 10px;
+    margin: 12px;
+}
+
